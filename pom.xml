@@ -6,7 +6,7 @@
 
     <groupId>com.harium.propan</groupId>
     <artifactId>propan-gdx</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <name>Propan GDX</name>
     <description>A Libgdx fork to be used in propan</description>
     <url>http://github.com/harium/propan-gdx</url>
