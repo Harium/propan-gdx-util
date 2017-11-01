@@ -733,7 +733,7 @@ public interface Input {
 	 * {@link ApplicationListener#render()} method each frame.
 	 *
 	 * @param processor the InputProcessor */
-	public void setInputProcessor(InputProcessor processor);
+	public void setInputProcessor (InputProcessor processor);
 
 	/** @return the currently set {@link InputProcessor} or null. */
 	public InputProcessor getInputProcessor();
