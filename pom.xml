@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.harium.propan</groupId>
-    <artifactId>propan-gdx</artifactId>
-    <version>1.1.0</version>
+    <artifactId>propan-gdx-util</artifactId>
+    <version>1.0.0</version>
     <name>Propan GDX</name>
-    <description>A Libgdx fork to be used in propan</description>
+    <description>A subset of LibGDX without native dependencies</description>
     <url>http://github.com/harium/propan-gdx</url>
     <scm>
         <connection>scm:git:git://github.com/harium/propan-gdx.git</connection>
@@ -27,8 +27,8 @@
     <dependencies>
         <dependency>
             <groupId>com.harium.etyl</groupId>
-            <artifactId>etyl-gdx</artifactId>
-            <version>1.0</version>
+            <artifactId>etyl-gdx-util</artifactId>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -136,6 +136,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
